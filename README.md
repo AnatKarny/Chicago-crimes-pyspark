@@ -1,16 +1,16 @@
 # Chicago-crimes-pyspark
 ## 1. Introduction
 The deluge of data combined with new technologies and analysis techniques, has the potential to inform decision and policy making in unprecedented ways. Governments increasingly generating large-scale data sets on a range of topics, including climate change, geospatial data, traffic patterns, health and disease data, purchasing behavior, and social behavior through social media interactions.
-This large-scale data in the era of geographic information systems (GIS) cause new challenges: discerning how to analyze and process the geospatial big data, how the spatial big data can be clustered, distributed, stored, indexed, and managed, and how this data can be computed or visualized in the system with high performance. In this project we use spark to analyze Chicago crimes dataset.
+This large-scale data in the era of geographic information systems (GIS) cause new challenges: discerning how to analyze and process the geospatial big data, how the spatial big data can be clustered, distributed, stored, indexed, and managed, and how this data can be computed or visualized in the system with high performance. In this project I use spark to analyze Chicago crimes dataset.
 ## 2. Goals
 Visualize Chicago crimes Geo data over a geographic map.
 Data analysis and visualization using spark.
 ## 3. Data
 In this project I use the Chicago crimes dataset. This data reflects reported incidents of crime (except for murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. This data contains about 7 million records with the following attributes:
 ![alt test](screenshots/table1.png)
-In addition, we use the geometry of Chicago data. This data contains the boundaries of Chicago and stored in a shapefile (shp) format - data format for geographic information system (GIS) software.
+In addition, I use the geometry of Chicago data. This data contains the boundaries of Chicago and stored in a shapefile (shp) format - data format for geographic information system (GIS) software.
 ## System architecture
-We implement this project by creating Free Tier Ubuntu Server 18.04 LTS (HVM), SSD Volume Type Amazon EC2 Instances. We installed the following apps and packages on the ec2:
+I implement this project by creating Free Tier Ubuntu Server 18.04 LTS (HVM), SSD Volume Type Amazon EC2 Instances. I installed the following apps and packages on the ec2:
 • Anaconda
 • Jupyter Notebook
 • Java
@@ -39,5 +39,5 @@ Details for a specific job:
 The partitions of the stage:
 ![alt test](screenshots/spark3.png)
 ## 6. Summary & Conclusions
-In this project we deal with geo-spatial big data. In order to analyze and visualize this data efficiently, we use spark. By doing that we parallelize the computation. Finally, we converted the data back from spark to pandas and visualize it geometrically. In this configuration we managed to successfully overcome GeoPanda disadvantages, meaning, a limited computation abilities and lack of the ability to visualize Geo data in Spark.
-Even thou we built low resources Amazon EC2 instances we succeed to execute this code. In comparison, python couldn’t load the CSV file using panda and exit with error.
+In this project I deal with geo-spatial big data. In order to analyze and visualize this data efficiently, I use spark. By doing that I parallelize the computation. Finally, I converted the data back from spark to pandas and visualize it geometrically. In this configuration I managed to successfully overcome GeoPanda disadvantages, meaning, a limited computation abilities and lack of the ability to visualize Geo data in Spark.
+Even thou I built low resources Amazon EC2 instances I succeed to execute this code. In comparison, python couldn’t load the CSV file using panda and exit with error.
