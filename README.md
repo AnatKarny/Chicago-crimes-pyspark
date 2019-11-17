@@ -7,4 +7,4 @@ Visualize Chicago crimes Geo data over a geographic map.
 Data analysis and visualization using spark.
 ## 3. Data
 In this project we use the Chicago crimes dataset. This data reflects reported incidents of crime (except for murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. This data contains about 7 million records with the following attributes:
-![alt test](screenshots/table1)
+![alt test](screenshots/table1.png)
