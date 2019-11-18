@@ -1,7 +1,7 @@
 # Chicago-crimes-pyspark
 ## 1. Introduction
 The deluge of data combined with new technologies and analysis techniques, has the potential to inform decision and policy making in unprecedented ways. Governments increasingly generating large-scale data sets on a range of topics, including climate change, geospatial data, traffic patterns, health and disease data, purchasing behavior, and social behavior through social media interactions.
-This large-scale data in the era of geographic information systems (GIS) cause new challenges: discerning how to analyze and process the geospatial big data, how the spatial big data can be clustered, distributed, stored, indexed, and managed, and how this data can be computed or visualized in the system with high performance. In this project I use spark to analyze Chicago crimes dataset.
+This large-scale data in the era of geographic information systems (GIS) cause new challenges: discerning how to analyze and process the geospatial big data, how the spatial big data can be clustered, distributed, stored, indexed, and managed, and how this data can be computed or visualized in the system with high performance. In this project I use spark to analyze Chicago crimes dataset. You can find my code [here](https://anatkarny.github.io/Chicago-crimes-pyspark/Docs/Chicago+Crimes.html)
 ## 2. Goals
 Visualize Chicago crimes Geo data over a geographic map.
 Data analysis and visualization using spark.
